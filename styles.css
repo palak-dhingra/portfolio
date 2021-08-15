@@ -24,6 +24,10 @@ hr{
     margin: auto;
 }
 
+.container-fluid{
+    display: flex;
+}
+
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
