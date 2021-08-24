@@ -23,7 +23,12 @@ hr{
     max-width: 600px;
     margin: auto;
 }
-
+.container-blog{
+    max-width: 75%;
+    margin: auto;
+    font-weight: 500;
+    padding: 2rem 0rem;
+}
 .container-fluid{
     display: flex;
 }
@@ -99,6 +104,12 @@ hr{
     display: block;
     margin: auto    ;
 }
+
+.blog-img{
+    max-width: 600px;
+    margin: auto;
+    display: block;
+}
 .hero .hero-heading{
     padding-top: 1rem;
     color: var(--dark-gray);
@@ -119,6 +130,8 @@ hr{
 
 .ow {
     background-color: var(--off-white);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
 }
 
 .footer{
@@ -136,3 +149,4 @@ hr{
 .footer .link{
     color: white;
 }
+
